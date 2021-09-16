@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/author"
+        android:textColor="#03A9F4"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtThongTin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="right|center"
+        android:hint="Nhap so" />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/buttomnuber"
+            android:id="@+id/btn1"
+            android:text="1"
+            />
+
+        <Button
+            style="@style/buttomnuber"
+            android:text="2"
+            android:id="@+id/btn2"/>
+
+        <Button
+            style="@style/buttomnuber"
+            android:id="@+id/btn3"
+            android:text="3"/>
+
+        <Button
+            android:id="@+id/btnCong"
+            style="@style/buttompt"
+            android:text="+"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/buttomnuber"
+
+            android:text="4"
+            />
+
+        <Button
+            style="@style/buttomnuber"
+            android:text="5"/>
+
+        <Button
+            style="@style/buttomnuber"
+            android:text="6"/>
+
+        <Button
+            style="@style/buttompt"
+            android:text="-"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/buttomnuber"
+
+            android:text="7"
+            />
+
+        <Button
+            style="@style/buttomnuber"
+            android:text="8"/>
+
+        <Button
+            style="@style/buttomnuber"
+            android:text="9"/>
+
+        <Button
+            style="@style/buttompt"
+            android:text="*"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/buttomnuber"
+
+            android:text="0"
+            />
+
+        <Button
+            style="@style/buttomnuber"
+            android:text="C"/>
+
+        <Button
+            style="@style/buttomnuber"
+            android:text="="
+            android:id="@+id/btnBang"/>
+
+        <Button
+            style="@style/buttompt"
+            android:text="/"
+            android:id="@+id/btnChia"/>
+    </LinearLayout>
+
+
+</LinearLayout>
